@@ -30,3 +30,32 @@ a {
 .navbar-light .navbar-nav.nav-link:hover{
     color: #f5f5f5;
 }
+
+.navbar .fa-solid{
+    color: rgb(134, 186, 23)
+}
+
+
+#navbar {
+    position: fixed;
+    background-image: linear-gradient(rgb(255, 255, 255, 0.8), rgba(255, 255, 255, 0.5));
+}
+@media(min-width:992px){
+    .navbar-light{
+       position: absolute;
+       width: 100%;
+       top: 0;
+       left: 0;
+       border-bottom: 1px solid #fcfdfb;
+       z-index: 999;
+    }
+    .navbar-light .navbar-nav .nav-link::before{
+        position: absolute;
+        content: "";
+        width: 0;
+        height: 2px;
+        bottom: -1px;
+        left: 50%;
+        background: var(--primary);
+        transition: 0.5s;
+    }
