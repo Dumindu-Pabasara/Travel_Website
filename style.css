@@ -78,3 +78,28 @@ a {
         color:#86b817 !important;
     }
 }
+
+.section-title{
+    color: #86b817;
+    
+}
+
+.card{
+    padding: 50px 8px;
+    margin: 10px 10px;
+}
+.h1class-title{
+    font-weight: bold;
+    padding: 18px;
+    text-align: left;
+    font-family:'Poppins', sans-serif;
+}
+.h1class-text{
+    padding-right: 10px;
+    text-align: justify;
+    font-family:'Poppins', sans-serif;   
+}
+.col-sm-8{
+    padding: 18px;
+    text-align: justify;
+}
