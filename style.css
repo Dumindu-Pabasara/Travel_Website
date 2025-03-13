@@ -156,3 +156,20 @@ a {
     z-index: -1;
     background: rgba(0, 0, 0, 0.08);
   }
+  .text-white{
+    text-align: justify;
+  }
+  
+  .map{
+    color: #86b817;
+  }
+  .container-xxl6{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url(img/contact2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .container-xxl6{
+    color: #ffffff;
+  }
